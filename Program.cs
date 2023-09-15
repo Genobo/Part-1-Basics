@@ -7,10 +7,10 @@
             // Gabe
             string firstName = "Gabe";
             string favMovie = "The Matrix";
-            string quote = "It's a fez. I wear a fez now.";
+            string quote = "It's a fez. Fezzes are cool.";
             Console.WriteLine($"Hello, {firstName}.");
             Console.WriteLine($"Have you seen {favMovie}?");
-            Console.WriteLine("I have a fun trick! I'll see if the title contains 'The' in all caps. If it does, I'll print out 'true'.");
+            Console.WriteLine("I have a fun trick! I'll print the title in all caps and see if it contains 'The' in all caps. If it does, I'll print out 'true'.");
             favMovie = favMovie.ToUpper();
             Console.WriteLine($"{ favMovie.Contains("THE")}");
             Console.WriteLine("I can replace letters as well. I'll show you!");
@@ -24,6 +24,12 @@
             quote = quote.Replace("I", " ");
             quote = quote.Replace("o", " ");
             Console.WriteLine($"{quote}");
+
+            Console.WriteLine("              ____==========_______                 __.-._");
+            Console.WriteLine("   _--____   |    | \"\"  \" \"|       \\                '-._\"7'");
+            Console.WriteLine("  /  )8}  ^^^| 0  |  =     |  o  0  |                /'.-c");
+            Console.WriteLine("                                                     |  /T");
+            Console.WriteLine("                                                    _)_/LI");
         }
     }
 }
